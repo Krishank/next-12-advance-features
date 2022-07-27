@@ -13,7 +13,7 @@ export function middleware(request: NextRequest) {
 
   if (request.nextUrl.pathname.startsWith('/rewrite')) {
     // The URL is same but response is from someother URL other URL
-    return NextResponse.rewrite(new URL('https://www.google.co.uk/', request.url))
+    return NextResponse.rewrite(new URL('https://github.com/Krishank/next-12-advance-features/blob/main/README.md', request.url))
   }
 
 
